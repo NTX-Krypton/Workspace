@@ -41,8 +41,8 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\Bin\</OutputPath>
-    <BaseIntermediateOutputPath>../../../build/obj/$(AssemblyName)</BaseIntermediateOutputPath>
+    <OutputPath>dist\</OutputPath>
+    <BaseIntermediateOutputPath>build/obj/$(AssemblyName)</BaseIntermediateOutputPath>
     <IntermediateOutputPath>$(BaseIntermediateOutputPath)/$(Configuration)/</IntermediateOutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -55,8 +55,8 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\..\Bin\</OutputPath>
-    <BaseIntermediateOutputPath>../../../build/obj/$(AssemblyName)</BaseIntermediateOutputPath>
+    <OutputPath>dist\</OutputPath>
+    <BaseIntermediateOutputPath>build/obj/$(AssemblyName)</BaseIntermediateOutputPath>
     <IntermediateOutputPath>$(BaseIntermediateOutputPath)/$(Configuration)/</IntermediateOutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
